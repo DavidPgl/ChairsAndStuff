@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
+[ExecuteAlways]
 public class ChairVisualizer : MonoBehaviour
 {
     [SerializeField] private GameObject seat;
