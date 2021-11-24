@@ -9,10 +9,10 @@ public class ChairVisualizer : MonoBehaviour
     [SerializeField] private LineRenderer polygonRenderer;
 
     [Header("Settings")] [SerializeField] private bool fixSeats = true;
-    [SerializeField] [Range(0, 20)] private int numberOfSeats = 5;
-    [SerializeField] [Range(0, 2)] private float seatWidth = 1.0f;
-    [SerializeField] [Range(0, 2)] private float distance = 1.0f;
-    [SerializeField] [Range(0, 2)] private float radius = 1.0f;
+    [SerializeField] [Range(0, 30)] private int numberOfSeats = 5;
+    [SerializeField] [Range(0, 3)] private float seatWidth = 1.0f;
+    [SerializeField] [Range(0, 5)] private float distance = 1.0f;
+    [SerializeField] [Range(0, 10)] private float radius = 1.0f;
 
     [SerializeField] private float minRadius = 0.0f;
 
